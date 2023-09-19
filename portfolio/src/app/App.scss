@@ -1,0 +1,16 @@
+// GENERIC IMPORTS
+@import '../assets/styles/generic/reset';
+
+// VARIABLE IMPORTS
+@import '../assets/styles/settings/vars';
+
+// FONT IMPORTS
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.app {
+    background-color: $COLOR_PRIMARY_DARK;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
