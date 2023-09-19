@@ -1,0 +1,11 @@
+@import '../../../assets//styles/settings/vars';
+
+.navItem {
+    color: $COLOR_WHITE;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        color: $COLOR_GREY_172;
+    }
+}
