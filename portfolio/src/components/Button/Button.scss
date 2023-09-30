@@ -1,0 +1,39 @@
+@import '../../assets/styles/settings/vars';
+
+.btn {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+
+    & .svg-inline--fa {
+        margin-right: 8px;
+    }
+}
+
+.btn--filled {
+    background-color: $COLOR_PRIMARY;
+    border: none;
+
+    &:hover {
+        border: 1px solid $COLOR_PRIMARY;
+        background-color: transparent;
+        color: $COLOR_PRIMARY;
+        cursor: pointer;
+    }
+}
+
+.btn--outlined {
+    border: 1px solid $COLOR_PRIMARY;
+    background-color: transparent;
+    color: $COLOR_PRIMARY;
+
+    &:hover {
+        background-color: $COLOR_PRIMARY;
+        border: none;
+        color: $COLOR_BLACK;
+        cursor: pointer;
+    }
+}

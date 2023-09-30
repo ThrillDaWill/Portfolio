@@ -9,7 +9,7 @@ export default function Welcome() {
         <div className='description'>
           <h2 className='subtitle'>My name is William Byrd. Welcome to my personal website.</h2>
           <p className='p1'>I have created this website to feel like a game/sci-fi interface. All text inside tries to reflect this.</p>
-          <p className='p2'>You will find ‘achievements’ or ‘quests’ that show the progress in my professional life and are related to what I am working on.</p>
+          <p className='p2'>You will find 'projects', ‘achievements’, or ‘quests’ that show the progress in my professional life and are related to what I am working on.</p>
           <Link className='button' href="/home">Enter The System</Link>
         </div>
       </div>

@@ -1,10 +1,17 @@
 import React from 'react';
 import '../../app/App.scss';
+import Head from 'next/head';
+import LeftPanel from '@/components/LeftPanel/LeftPanel';
 
 export default function Home() {
-    return (
+  return (
+    <>
+      <Head>
+        <title>William Byrd - Home</title>
+      </Head>
       <main className='app'>
-        <div>I am the home page!</div>
+        <LeftPanel />
       </main>
-    )
-  }
+    </>
+  )
+}

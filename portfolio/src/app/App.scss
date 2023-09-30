@@ -4,6 +4,9 @@
 // VARIABLE IMPORTS
 @import '../assets/styles/settings/vars';
 
+// OBJECT IMPORTS
+@import '../assets/styles/objects/hdg';
+
 // FONT IMPORTS
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Iceland&&display=swap');
 
@@ -53,6 +56,11 @@
         color: $COLOR_PRIMARY;
         border: 1px solid $COLOR_PRIMARY;
         padding: 15px 50px;
+
+        &:hover {
+            background-color: $COLOR_PRIMARY;
+            color: $COLOR_BLACK;
+        }
     }
 }
 
