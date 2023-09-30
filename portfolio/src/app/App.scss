@@ -5,12 +5,54 @@
 @import '../assets/styles/settings/vars';
 
 // FONT IMPORTS
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Iceland&&display=swap');
 
 .app {
     background-color: $COLOR_PRIMARY_DARK;
     height: 100vh;
     width: 100vw;
-    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 535px;
+    color: $COLOR_PRIMARY;
+}
+
+.description {
+    font-family: 'Iceland', cursive;
+    text-transform: uppercase;
+    color: $COLOR_WHITE;
+    font-size: 20px;
+    letter-spacing: 7.5%;
+
+    .subtitle {
+        font-size: 26px;
+        margin-bottom: 32px;
+    }
+    
+    .p1 {
+        margin-bottom: 24px;
+    }
+
+    .p2 {
+        margin-bottom: 55px;
+    }
+
+    .button {
+        text-decoration: none;
+        color: $COLOR_PRIMARY;
+        border: 1px solid $COLOR_PRIMARY;
+        padding: 15px 50px;
+    }
 }
 
