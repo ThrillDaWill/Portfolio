@@ -1,0 +1,25 @@
+@import '../../assets/styles/settings/vars';
+
+.systemSection {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 65px 160px 1fr 75px 120px 120px;
+    gap: 15px;
+    color: $COLOR_WHITE;
+    font-family: 'Iceland', cursive;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.link {
+    color: $COLOR_WHITE;
+    text-decoration: none;
+
+    &:hover {
+        color: $COLOR_PRIMARY;
+    }
+}
+
+.opacity--50 {
+    opacity: 50%;
+}

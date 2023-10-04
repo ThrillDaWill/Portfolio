@@ -11,6 +11,7 @@ import Button from '../Button/Button';
 const LeftPanel = () => {
     return (
         <div className='panel-container'>
+            <div className='profile'></div>
             <div className='panel-section'>
                 <p className='hdg hdg--1 hdg--white'>Name</p>
                 <p className='hdg hdg--2 hdg--primary'>William Byrd</p>

@@ -13,10 +13,29 @@
     font-family: 'Big Shoulders Display', cursive;
 }
 
+.hdg--3 {
+    font-size: 16px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+
+.hdg--4 {
+    font-size: 26px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
 .hdg--primary {
     color: $COLOR_PRIMARY;
 }
 
 .hdg--white {
     color: $COLOR_WHITE;
+}
+
+.hdg--grey {
+    color: rgba(255, 255, 255, 50%)
+}
+
+.hdg--green {
+    color: $COLOR_GREEN;
 }

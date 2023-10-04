@@ -1,4 +1,14 @@
-.panel-section {
+.panel-container {
     margin-top: 32px;
+}
+
+.panel-section {
+    margin-bottom: 24px;
+}
+
+.profile {
+    height: 175px;
+    width: 195px;
+    border: 1px solid rgba(255, 255, 255, 15%);
     margin-bottom: 24px;
 }
